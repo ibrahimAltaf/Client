@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.growing {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  background: radial-gradient(
+    99.94% 99.94% at 50% 99.96%,
+    #0c4238 0%,
+    #010113 100%
+  );
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+.growing-msg {
+  width: 40%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.growing-msg img {
+  width: 21.538px;
+  height: 19.682px;
+}
+
+.contact-from {
+  width: 60%;
+  height: 100%;
+}
+
+.growing-msg p {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.4px;
+  /* 120% */
+  letter-spacing: -0.54px;
+}
+
+.form-head {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  width: 70%;
+  padding-top: 5rem;
+}
+
+.form-f-01 {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.fullname input {
+  width: 380px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 28px;
+
+  border-radius: 28px;
+
+  text-align: start;
+  padding-left: 2rem;
+  margin-right: 1rem;
+  outline: none;
+}
+
+.fullname input:focus {
+  border-bottom: 5px solid #e0ec5b !important;
+}
+
+.growing-msg img {
+  margin-right: 0.5rem;
+}
+
+.email input {
+  width: 380px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 28px;
+
+  outline: none;
+  border: none;
+
+  text-align: start;
+  padding-left: 2rem;
+}
+
+.email input:focus {
+  border-bottom: 5px solid #e0ec5b !important;
+}
+
+.message input {
+  width: 640px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  border-radius: 28px;
+  outline: none;
+  border: none;
+  text-align: start;
+  padding-left: 2rem;
+}
+
+.message input:focus {
+  border-bottom: 5px solid #e0ec5b !important;
+}
+
+.checkmain {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.check-conten {
+  width: 70%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.send-message {
+  width: 20%;
+  height: 100%;
+}
+
+#checkbox {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  outline: none;
+  border: none;
+  background-color: none;
+  margin-right: 1rem;
+  border: #e0ec5b 1px solid !important;
+}
+
+.chec-tect {
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 11px;
+  font-style: normal;
+  width: 80%;
+  font-weight: 400;
+  line-height: 15.4px;
+  /* 140% */
+}
+
+.send-message button {
+  display: flex;
+  transition: all 0.3s linear;
+  width: 186px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: transparent;
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+.send-message button:hover {
+  background: #e0ec5b;
+  color: #000000;
+}
+
+@media only screen and (max-width: 460px) {
+  .growing {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    background: radial-gradient(
+      99.94% 99.94% at 50% 99.96%,
+      #0c4238 0%,
+      #010113 100%
+    );
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0 !important;
+    margin-top: 5rem;
+  }
+
+  .growing-msg {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem !important;
+    align-items: start;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    margin-top: 2rem !important;
+  }
+
+  .growing-msg img {
+    width: 21.538px;
+    height: 19.682px;
+  }
+
+  .contact-from {
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+  }
+
+  .growing-msg p {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.4px;
+    /* 120% */
+    letter-spacing: -0.54px;
+  }
+
+  .form-head {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .form-f-01 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+
+  .fullname input {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    border-bottom: 1px solid #e0ec5b;
+
+    border-radius: 28px;
+    border-bottom: 5px solid #e0ec5b !important;
+    text-align: start;
+    padding-left: 2rem;
+    margin-right: 1rem;
+    outline: none;
+  }
+
+  .growing-msg img {
+    margin-right: 0.5rem;
+  }
+
+  .email input {
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    border-bottom: 5px solid #e0ec5b !important;
+    outline: none;
+    border: none;
+
+    text-align: start;
+    padding-left: 2rem;
+  }
+
+  .message input {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    border-radius: 28px;
+
+    text-align: start;
+    padding-left: 2rem;
+  }
+
+  .checkmain {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .check-conten {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .send-message {
+    width: 20%;
+    height: 100%;
+  }
+
+  #checkbox {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    outline: none;
+    border: none;
+    background-color: none;
+    margin-right: 1rem;
+    border: #e0ec5b 1px solid !important;
+  }
+
+  .chec-tect {
+    color: #7d8387;
+    font-family: "Manrope";
+    font-size: 11px;
+    font-style: normal;
+    width: 100% !important;
+    font-weight: 400;
+    line-height: normal !important;
+    /* 140% */
+  }
+
+  .send-message button {
+    display: flex;
+
+    width: 186px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--Accent, #e0ec5b);
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+  }
+}

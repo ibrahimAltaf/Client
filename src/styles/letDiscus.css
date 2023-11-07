@@ -1,0 +1,320 @@
+.Lets-discus {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+.lets-discus-head-011 h1 {
+  color:  #329683;
+  font-family: "Manrope";
+  font-size: 91px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91px; /* 100% */
+
+  text-transform: uppercase;
+}
+.case-studymain-098 {
+  width: 100%;
+  border-top: 1px solid rgba(19, 196, 163, 0.5);
+  background: #fff;
+  height: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.let-discus-form-09 {
+  width: 25%;
+  border-right: 1px solid rgba(19, 196, 163, 0.5);
+  padding-right: 2rem;
+  height: 100%;
+}
+.lets-discus-img-08 {
+  width: 25%;
+  height: 100%;
+}
+.let-discusabou {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+.let-discus-form-09 p {
+  color: #181818;
+  font-family: "Manrope";
+  padding: 0.5rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 140% */
+  letter-spacing: -0.36px;
+}
+#let-discus {
+  width: 340px;
+  height: 56px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  border-radius: 28px;
+  transition: all 0.5s linear;
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 16px;
+  padding-left: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 143.75% */
+}
+#let-discus:focus {
+  border-bottom: 3px solid var(--Secondary, #329683);
+}
+#let-email {
+  width: 340px;
+  height: 56px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  border-radius: 28px;
+  transition: all 0.5s linear;
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 16px;
+  padding-left: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+#let-email:focus {
+  border-bottom: 3px solid #329683;
+}
+#letdicux-btn button {
+  display: flex;
+  width: 309px;
+  min-height: 56px;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background: #329683;
+  color: var(--Base, #fff);
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px; /* 140% */
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.let-check-box-discus {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.let-check-box-discus p {
+  color: #7d8387;
+  font-family: "Manrope";
+  margin-top: -10px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px; /* 140% */
+}
+.lets-discus-img-08 img {
+  width: 100%;
+}
+.IN {
+  margin-left: -10px;
+}
+.let-d0001 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.employeName {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 140% */
+}
+.employeName span {
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px; /* 140% */
+}
+.letd0002 p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32.4px; /* 120% */
+  letter-spacing: -0.54px;
+}
+.let-d00003 p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 140% */
+}
+.let-doo-001 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.YEar-experience {
+  display: flex;
+  flex-direction: row;
+}
+.YEar-experience p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 69px; /* 100% */
+  letter-spacing: -4.14px;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+.experience p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 69px; /* 100% */
+  letter-spacing: -4.14px;
+}
+#Success {
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.2px; /* 140% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+}
+#privacy {
+  color: #329683;
+  font-family: "Manrope";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px;
+}
+@media only screen and (max-width: 600px) {
+  .Lets-discus {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+  .case-studymain-098 {
+    width: 100%;
+    border-top: 1px solid rgba(19, 196, 163, 0.5);
+    background: #fff;
+    height: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  .let-discus-form-09 {
+    width: 100%;
+    border-right: 1px solid rgba(19, 196, 163, 0.5);
+    padding-right: 2rem;
+    height: 100%;
+  }
+  .lets-discus-img-08 {
+    width: 100%;
+    height: 100%;
+  }
+  .let-discusabou {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+  }
+  #let-email {
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+    border-radius: 28px;
+ 
+    color: #7d8387;
+    font-family: "Manrope";
+    font-size: 16px;
+    padding-left: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  #let-email:focus{
+    border-bottom: 3px solid  #329683;
+  }
+  #let-discus {
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+    border-radius: 28px;
+ 
+    color: #7d8387;
+    font-family: "Manrope";
+    font-size: 16px;
+    padding-left: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 143.75% */
+  }
+  #let-discus:focus{
+    border-bottom: 3px solid  #329683;
+  }
+  .let-doo-001 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .lets-discus-head-011 h1 {
+    color:  #329683;
+    font-family: "Manrope";
+    font-size: 40px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal !important; /* 100% */
+
+    text-transform: uppercase;
+  }
+}

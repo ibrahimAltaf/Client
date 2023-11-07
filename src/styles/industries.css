@@ -1,0 +1,232 @@
+.industries {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  background: radial-gradient(
+    100.07% 100.05% at 45.33% 100.04%,
+    #08372f 0%,
+    #000 100%
+  );
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  overflow: hidden;
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.industries-01 {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 60px;
+  font-style: normal;
+  padding-left: 5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  /* 119.048% */
+
+  text-transform: uppercase;
+}
+.industries-main-01 {
+  width: 90%;
+  margin: auto;
+  height: 80%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indus-01 {
+  width: 400px;
+  height: 286px;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.indus-01 button {
+  display: flex;
+  width: 197.45px;
+  height: 56px;
+  padding: 17.29px 33.01px 0px 34px;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+
+  border-radius: 40px;
+  background: #e0ec5b;
+}
+.indus-02 {
+  width: 70%;
+  height: 40%;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.indus-card {
+  width: 376px;
+  height: 376px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.indus-para {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.img-main {
+  width: 100%;
+  height: 50%;
+}
+.img-main img {
+  width: 100%;
+  height: 100%;
+}
+.v-01 {
+  width: 100%;
+  height: 20%;
+
+  position: relative;
+  top: -100%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+}
+.v-01 img {
+  width: 25px;
+  height: 25px;
+}
+.v-02 {
+  width: 100%;
+  height: 70%;
+
+  position: relative;
+  top: -100%;
+}
+.v-02 p {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 20px;
+  padding: 1rem;
+  font-style: normal;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.indus-card-btn button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: none;
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+}
+.indus-card-con {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem;
+  line-height: 15px; /* 125% */
+}
+.btn-arr {
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .industries {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    background: radial-gradient(
+      100.07% 100.05% at 45.33% 100.04%,
+      #08372f 0%,
+      #000 100%
+    );
+    display: none;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .industries-01 {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 30px;
+    font-style: normal;
+    margin-left: -55px;
+    font-weight: 700;
+
+    /* 119.048% */
+
+    text-transform: uppercase;
+  }
+  .industries-main-01 {
+    width: 90%;
+
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .indus-01 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .indus-01 button {
+    display: flex;
+    width: 197.45px;
+    height: 56px;
+    padding: 17.29px 33.01px 0px 34px;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+
+    border-radius: 40px;
+    background: #e0ec5b;
+  }
+  .indus-02 {
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  .indus-card {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .indus-para {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

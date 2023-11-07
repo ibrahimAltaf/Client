@@ -1,0 +1,457 @@
+/* Approch Start */
+.approch {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  background: var(
+    --gr,
+    radial-gradient(99.97% 99.97% at 50% 0.03%, #0c4238 0%, #010113 100%)
+  );
+  padding: 5rem 5rem 5rem 5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Approch-contentent-01 {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.Aproch-head {
+  width: 50%;
+  height: 100%;
+}
+
+.approch-para {
+  width: 50%;
+  height: 100%;
+}
+
+.Aproch-head h1 {
+  color: #fff;
+  font-family: "Manrope";
+
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 91px;
+  /* 100% */
+
+  text-transform: uppercase;
+}
+
+.Aproch-head button {
+  width: 217px;
+  height: 56px;
+  border-radius: 40px;
+  background: #c5d86d;
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  line-height: 21px;
+  /* 140% */
+  letter-spacing: -0.15px;
+  text-transform: uppercase;
+}
+
+.approch-para {
+  color:  #fff;
+  font-family: "Manrope";
+  font-size: 15.12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  /* 126.984% */
+  letter-spacing: -0.36px;
+}
+
+.ap-03 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 2rem;
+  flex-direction: row;
+  border-top: 1px solid rgba(125, 131, 135, 0.5);
+}
+
+.ap-itme {
+  width: 28.3%;
+  height: 100%;
+  border-right: 1px solid rgba(125, 131, 135, 0.5);
+}
+
+.ap-img {
+  width: 600px !important;
+  height: 340px;
+}
+
+.discover {
+  width: 42%;
+  height: 100%;
+}
+
+.ap-itme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.active {
+  color: #e0ec5b;
+  font-family: "Manrope";
+  border-left: 4px solid #ffffff !important;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding-left: 1rem;
+  line-height: 21px;
+  /* 140% */
+  margin-right: -2rem;
+
+  padding-bottom: 14px;
+}
+
+.fild {
+  color: #f1f1f1;
+  font-family: "Manrope";
+  font-size: 15px;
+  background-color: transparent;
+  font-style: normal;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+
+  background: none;
+
+  outline: none;
+  border: none;
+  text-align: start;
+  cursor: pointer;
+  line-height: 21px;
+  /* 140% */
+  letter-spacing: -0.15px;
+}
+
+.ap-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number-phase {
+  display: flex;
+  flex-direction: row;
+}
+
+.number-01 {
+  color: #e0ec5b;
+  font-family: "Manrope";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32.4px;
+  /* 120% */
+  letter-spacing: -0.54px;
+}
+
+.discover-phase {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 22px;
+  font-style: normal;
+  padding-left: 1rem;
+  font-weight: 700;
+  line-height: normal;
+  /* 120% */
+  letter-spacing: normal;
+}
+
+.discovery-para {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 140% */
+}
+
+.dis-hi img {
+  padding-right: 1rem;
+  margin: 0.5rem;
+}
+
+.dis-hi {
+  display: flex;
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  /* 100% */
+  letter-spacing: -0.36px;
+  align-items: center;
+}
+
+.dis-para {
+  padding-top: 1rem;
+}
+
+/* Media Query */
+@media only screen and (max-width: 460px) {
+  .approch {
+    display: flex;
+    width: 100% !important;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 24px;
+    background: var(
+      --gr,
+      radial-gradient(99.97% 99.97% at 50% 0.03%, #0c4238 0%, #010113 100%)
+    );
+    padding: 0 !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Approch-contentent-01 {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Aproch-head {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .approch-para {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Aproch-head h1 {
+    color: var(--Base, #fff);
+    font-family: "Manrope";
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+
+    text-transform: uppercase;
+  }
+
+  .Aproch-head button {
+    width: 100% !important;
+    height: 56px;
+    border-radius: 40px;
+    background: #c5d86d;
+    color: #000;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: normal !important;
+    /* 140% */
+    letter-spacing: normal !important;
+    text-transform: uppercase;
+  }
+
+  .approch-para {
+    color: #f1f1f1;
+    font-family: "Manrope";
+    font-size: 12px;
+    text-align: start;
+    font-style: normal;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: normal !important;
+    /* 140% */
+    letter-spacing: normal !important;
+  }
+
+  .ap-03 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    border-top: 1px solid rgba(125, 131, 135, 0.5);
+  }
+
+  .ap-itme {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid rgba(125, 131, 135, 0.5);
+  }
+
+  .ap-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .discover {
+    width: 100%;
+
+    height: 100%;
+  }
+
+  .ap-itme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .active {
+    color: #e0ec5b;
+    font-family: "Manrope";
+    border-left: 4px solid #e0ec5b !important;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+
+    font-style: normal;
+    font-weight: 500;
+    width: 100% !important;
+    line-height: normal;
+    letter-spacing: normal;
+    /* 140% */
+    margin-right: -2rem;
+    padding-bottom: 14px;
+  }
+
+  .fild {
+    color: #f1f1f1;
+    font-family: "Manrope";
+    font-size: 15px;
+    background-color: transparent;
+    font-style: normal;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    background: none;
+
+    outline: none;
+    border: none;
+    text-align: start;
+    cursor: pointer;
+    line-height: 21px;
+    /* 140% */
+    letter-spacing: -0.15px;
+  }
+
+  .ap-img {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+  .ap-img img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .discover {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .number-phase {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .number-01 {
+    color: #e0ec5b;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal !important;
+    /* 120% */
+    letter-spacing: normal !important;
+  }
+
+  .discover-phase {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    padding-left: 1rem;
+    font-weight: 700;
+    line-height:normal !important;
+    /* 120% */
+    letter-spacing: normal !important;
+  }
+
+  .discovery-para {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal !important;
+    /* 140% */
+  }
+
+  .dis-hi img {
+    padding-right: 1rem;
+    margin: 0.5rem;
+  }
+
+  .dis-hi {
+    display: flex;
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:normal !important;
+    /* 100% */
+    letter-spacing:normal !important;
+    align-items: center;
+  }
+
+  .dis-para {
+    padding-top: 1rem;
+  }
+}

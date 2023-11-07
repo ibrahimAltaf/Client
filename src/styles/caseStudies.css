@@ -1,0 +1,597 @@
+.Case-studeies-main {
+  width: 100%;
+  padding: 5rem;
+  height: 100%;
+  background-color: #329683;
+  border-radius: 24px;
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgba(1, 1, 19, 0.5) 0%,
+      rgba(12, 66, 56, 0.5) 100%),
+    radial-gradient(49.95% 49.95% at 50% 0.03%, #0c4238 0%, #010113 100%);
+  margin-top: 5rem;
+}
+
+.case-study-head {
+  width: 100%;
+  height: 100%;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.case-study-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.case-study-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.case-study-proto-type {
+  width: 90%;
+  height: 85%;
+  gap: 2rem;
+  display: flex;
+  border-top: 1px solid rgba(125, 131, 135, 0.5);
+  flex-direction: row;
+  padding-top: 2rem;
+  margin: auto;
+}
+
+.proto-types-01 {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.prototype-02 {
+  width: 50%;
+  height: 100%;
+  background-color: darkgreen;
+}
+
+.case-study-content h2 {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91px;
+  /* 100% */
+
+  text-transform: uppercase;
+}
+
+.case-btn {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+
+.case-btn button {
+  width: 120px;
+  height: 32px;
+  border-radius: 40px;
+  border: 1px solid #e0ec5b;
+  background-color: transparent;
+  margin-left: 10px;
+  color: #fff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px;
+  /* 100% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+}
+
+.case-study-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.case-study-btn button {
+  display: flex;
+  height: 56px;
+  padding: 1rem;
+  border-radius: 40px;
+  background: var(--Accent, #e0ec5b);
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 23.66px;
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  /* 140% */
+  letter-spacing: -0.15px;
+  text-transform: uppercase;
+}
+
+.proto-types-01 {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+}
+
+.proto-types-01 img {
+  width: 100%;
+}
+
+.proto-01 {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid rgba(125, 131, 135, 0.5);
+  border-top: 1px solid rgba(125, 131, 135, 0.5);
+}
+
+.proto-02 {
+  width: 50%;
+  height: 100%;
+}
+
+.case-study-01 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.case-study-img {
+  width: 100%;
+  height: 70%;
+}
+
+.case-study-content-01 {
+  width: 100%;
+  height: 30%;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+}
+
+.case-study-head-02 {
+  width: 70%;
+  height: 30%;
+  background-color: #000;
+}
+
+.ase-study-learn-more {
+  width: 30%;
+  height: 30%;
+}
+
+.case-Study-card {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(125, 131, 135, 0.5);
+}
+
+.image-study {
+  width: 100%;
+  height: 49%;
+}
+
+.Study-Data {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.Study-content {
+  width: 70%;
+  height: 100%;
+}
+
+.Learn-More-Arrow {
+  width: 30%;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 1rem;
+}
+
+.Learn-More-Arrow img {
+  width: 31.687px;
+  height: 31.688px;
+}
+
+.image-study img {
+  width: 100%;
+  height: auto;
+}
+
+.Startup-name {
+  color: #e0ec5b;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+  /* 140% */
+  text-transform: uppercase;
+}
+
+.Study-content h3 {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px;
+  /* 120% */
+  letter-spacing: -0.96px;
+}
+
+.Case-des {
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  /* 140% */
+  letter-spacing: -0.36px;
+}
+
+.complete-case-stu {
+  display: flex;
+  padding: 31px 90px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  gap: 2rem;
+  background: #000;
+  margin-bottom: 3rem;
+
+  flex-direction: row;
+}
+
+.dnum {
+  color: var(--Accent, #e0ec5b);
+  text-align: right;
+  font-family: "Manrope";
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  /* 100% */
+  letter-spacing: -4.14px;
+}
+
+.implemtion {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .Case-studeies-main {
+    width: 100% !important;
+    padding: 0 !important;
+    height: 100%;
+    overflow: hidden;
+    background-color: #329683;
+    border-radius: 24px;
+    background: radial-gradient(50% 50% at 50% 50%,
+        rgba(1, 1, 19, 0.5) 0%,
+        rgba(12, 66, 56, 0.5) 100%),
+      radial-gradient(49.95% 49.95% at 50% 0.03%, #0c4238 0%, #010113 100%);
+  }
+
+  .case-study-head {
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .case-study-content {
+    width: 10 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .case-study-btn {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .case-study-proto-type {
+    width: 90%;
+    height: 85%;
+    gap: 2rem;
+    display: flex;
+    border-top: none !important;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin: auto;
+  }
+
+  .proto-types-01 {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  }
+
+  .prototype-02 {
+    width: 100%;
+    height: 100%;
+    background-color: darkgreen;
+  }
+
+  .case-study-content h2 {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    /* 100% */
+
+  }
+
+  .case-btn {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem !important;
+    flex-wrap: wrap;
+    
+    align-items: center  !important;
+    
+  }
+
+  .case-btn button {
+    width: 120px;
+    height: 32px;
+    border-radius: 40px;
+    border: 1px solid #e0ec5b;
+    background-color: transparent;
+    margin-left: 10px;
+    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-style: normal;
+    margin: 1rem;
+    font-weight: 600;
+    line-height: 13px;
+    /* 100% */
+    letter-spacing: -0.13px;
+    text-transform: uppercase;
+  }
+
+  .case-study-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 4rem !important;
+  }
+
+  .case-study-btn button {
+    display: flex;
+    width: 200px !important;
+    height: 56px;
+
+    padding: 1rem;
+    border-radius: 40px;
+    background: var(--Accent, #e0ec5b);
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 23.66px;
+    color: #000;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    /* 140% */
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+  }
+
+  .proto-types-01 {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+  }
+
+  .proto-types-01 img {
+    width: 100%;
+  }
+
+  .proto-01 {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid rgba(125, 131, 135, 0.5);
+    border-top: 1px solid rgba(125, 131, 135, 0.5);
+  }
+
+  .proto-02 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .case-study-01 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .case-study-img {
+    width: 100%;
+    height: 70%;
+  }
+
+  .case-study-content-01 {
+    width: 100%;
+    height: 30%;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .case-study-head-02 {
+    width: 70%;
+    height: 30%;
+    background-color: #000;
+  }
+
+  .ase-study-learn-more {
+    width: 30%;
+    height: 30%;
+  }
+
+  .case-Study-card {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(125, 131, 135, 0.5);
+  }
+
+  .image-study {
+    width: 100%;
+    height: 49%;
+  }
+
+  .Study-Data {
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Study-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Learn-More-Arrow {
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 1rem;
+  }
+
+  .Learn-More-Arrow img {
+    width: 31.687px;
+    height: 31.688px;
+  }
+
+  .image-study img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Startup-name {
+    color: #e0ec5b;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    /* 140% */
+    text-transform: uppercase;
+  }
+
+  .Study-content h3 {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal !important;
+    /* 120% */
+    letter-spacing: normal !important;
+  }
+
+  .Case-des {
+    color: #7d8387;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    /* 140% */
+    letter-spacing: -0.36px;
+  }
+
+  .complete-case-stu {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    gap: 2rem;
+    background: #000;
+    margin-bottom: 3rem;
+
+    flex-direction: column;
+  }
+
+  .dnum {
+    color: var(--Accent, #e0ec5b);
+    text-align: right;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69px;
+    /* 100% */
+    letter-spacing: -4.14px;
+  }
+
+  .implemtion {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}

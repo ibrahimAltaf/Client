@@ -1,0 +1,6 @@
+
+.slick-slide {
+    display: flex; /* Ensure the images are in a row */
+    justify-content: center; /* Center-align the images horizontally */
+    align-items: center; /* Center-align the images vertically */
+  }

@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  text-decoration: none;
+}
+
+.main-hero-section-01 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/main-hero-section-01=bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-bottom: 5rem;
+}
+
+.Hero-section-content {
+  width: 92%;
+  height: 100%;
+  margin: auto;
+}
+
+.watch-reels {
+  display: flex;
+  align-items: center;
+}
+
+.Watch-reels-text {
+  font-size: 20px;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.2px;
+  /* 140% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.Hero-text-content-01 {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.Hero-head-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Hero-text-content-01 h1 {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 60px !important;
+  font-style: normal;
+  width: 60%;
+  letter-spacing: normal !important;
+  line-height: 70px !important;
+  font-weight: 800 !important;
+}
+
+.Hero-para-01 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.Hero-para-01 p {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+
+  line-height: 25.2px;
+  /* 140% */
+  letter-spacing: -0.18px;
+  text-transform: uppercase;
+}
+
+.let-Discus {
+  position: absolute;
+}
+
+.let-Discus {
+  left: 70% !important;
+}
+
+.Ev-02 {
+  position: relative;
+}
+
+.Ev-02::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  /* Border ki height */
+  background-color: #329683;
+  /* Border ka color */
+  transition: width 0.6s ease;
+  /* Transition properties */
+}
+
+.Ev-02:hover::before {
+  width: 100%;
+  /* Border full width on hover */
+}
+
+.stack-001 img {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+  /* Add a transition for a smooth effect */
+}
+
+.stack-001 img:hover {
+  transform: scale(0.9);
+  /* Scale the element slightly on hover */
+}
+
+.stack-002 img {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+  /* Add a transition for a smooth effect */
+}
+
+.stack-002 img:hover {
+  transform: scale(0.9);
+  /* Scale the element slightly on hover */
+}
+
+/* Media Query */
+
+.logos-slider {
+  width: 100% !important;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sli-01 {
+  width: 184px;
+  height: 92px;
+}
+
+/* Evoltion Start */
+.evolution {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+.evolution-img-01 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.evolution-img-01 img {
+  width: 100%;
+}
+
+.evolution-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.E-01 {
+  color: #7d8387;
+  font-family: "Manrope", sans-serif;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32.4px;
+  /* 120% */
+  letter-spacing: -0.54px;
+}
+
+#EvolutionActiveHead {
+  color: #329683 !important;
+  font-family: "Manrope", sans-serif !important;
+  font-size: 40px !important;
+  margin-top: 30px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  /* 100% */
+  letter-spacing: normal;
+}
+
+.evolutin-head {
+  display: flex;
+  flex-direction: row;
+}
+
+.Evolution-btn button {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  height: 32px;
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid rgba(175, 175, 175, 0.5);
+  margin-bottom: 10px;
+  font-style: normal;
+  background: transparent;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 13px;
+  /* 100% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+}
+
+.evolution-para p {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 140% */
+}
+
+.LearnMore {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  width: 132px;
+  outline: none;
+  border: none;
+  background: transparent;
+  height: 42px;
+  align-items: center;
+  line-height: 18.2px;
+  /* 140% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+}
+
+.evolutin-head-2 h1 {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600 !important;
+
+  line-height: 69px;
+  /* 100% */
+}
+
+.Ev-02 {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-01 {
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 460px) {
+  .main-hero-section-01 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/main-hero-section-01=bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 5rem;
+  }
+  .Hero-section-content {
+    width: 100% !important;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .Hero-text-content-01 {
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    justify-content: start !important;
+
+    flex-direction: column;
+  }
+  .Hero-text-content-01 h1 {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 50px !important;
+    font-style: normal;
+    padding: 1rem;
+    font-weight: 600 !important;
+    width: 100% !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    font-weight: normal !important;
+  }
+  .Hero-para-01 p {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    width: 100% !important;
+
+    line-height: normal !important;
+
+    letter-spacing: normal !important;
+    text-transform: uppercase;
+  }
+  .Hero-para-01 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 !important;
+    padding: 1rem;
+  }
+  .let-Discus img {
+    width: 100px;
+  }
+  .let-Discus {
+    left: 70% !important;
+    margin-top: 10rem;
+  }
+
+  .evolution {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .evolution-img-01 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .evolution-img-01 img {
+    width: 100%;
+  }
+
+  .evolution-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .evolutin-head-2 h1 {
+    color: #000;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600 !important;
+
+    line-height: normal !important;
+  }
+  #EvolutionActiveHead {
+    color: #329683 !important;
+    font-family: "Manrope", sans-serif !important;
+    font-size: 24px !important;
+    margin-top: 30px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-hero-section-01 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/main-hero-section-01=bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 5rem;
+  }
+  .Hero-section-content {
+    width: 100% !important;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .Hero-text-content-01 {
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    justify-content: start !important;
+
+    flex-direction: column;
+  }
+  .Hero-text-content-01 h1 {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 50px !important;
+    font-style: normal;
+    padding: 1rem;
+    font-weight: 600 !important;
+    width: 100% !important;
+    letter-spacing: normal !important;
+    line-height: normal !important;
+    font-weight: normal !important;
+  }
+  .Hero-para-01 p {
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    width: 100% !important;
+
+    line-height: normal !important;
+
+    letter-spacing: normal !important;
+    text-transform: uppercase;
+  }
+  .Hero-para-01 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 !important;
+    padding: 1rem;
+  }
+  .let-Discus img {
+    width: 100px;
+  }
+  .let-Discus {
+    left: 70% !important;
+    margin-top: 10rem;
+  }
+
+  .evolution {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .evolution-img-01 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .evolution-img-01 img {
+    width: 100%;
+  }
+
+  .evolution-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .evolutin-head-2 h1 {
+    color: #000;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600 !important;
+
+    line-height: normal !important;
+  }
+  #EvolutionActiveHead {
+    color: #329683 !important;
+    font-family: "Manrope", sans-serif !important;
+    font-size: 24px !important;
+    margin-top: 30px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .let-Discus img {
+    display: none;
+  }
+  .let-Discus {
+    left: 70% !important;
+    margin-top: 10rem;
+  }
+}

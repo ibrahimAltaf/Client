@@ -1,0 +1,175 @@
+.our-team {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 5rem !important;
+  margin-top: 1rem;
+}
+.our-team-01 {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+.our-team-002 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ou-team-para {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Dot-team img {
+  margin-right: 10px;
+}
+.our-team-002 p {
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.2px; /* 140% */
+  text-transform: uppercase;
+}
+.ou-team-para p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 140% */
+  letter-spacing: -0.36px;
+}
+.team-member {
+  width: 100%;
+  height: 43%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.tema-member-01 {
+  width: 240px;
+  height: 430.58px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.member-name {
+  color: var(--out-of-names, #0b0b0b);
+  font-family: "Manrope";
+  font-size: 27px;
+  padding-top: 1rem;
+  font-style: normal;
+}
+.member-descrition {
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px; /* 140% */
+}
+.tema-member-01 img {
+  border-radius: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .our-team {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+
+    padding-bottom: 5rem !important;
+  }
+  .our-team-01 {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .our-team-002 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ou-team-para {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Dot-team img {
+    margin-right: 10px;
+  }
+  .our-team-002 p {
+    color: #000;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.2px; /* 140% */
+    text-transform: uppercase;
+  }
+  .ou-team-para p {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px; /* 140% */
+    letter-spacing: -0.36px;
+  }
+  .team-member {
+    width: 100%;
+    height: 43%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .tema-member-01 {
+    width: 240px;
+    height: 430.58px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .member-name {
+    color: var(--out-of-names, #0b0b0b);
+    font-family: "Manrope";
+    font-size: 27px;
+    padding-top: 1rem;
+    font-style: normal;
+  }
+  .member-descrition {
+    color: #7d8387;
+    font-family: "Manrope";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px; /* 140% */
+  }
+  .tema-member-01 img {
+    border-radius: 24px;
+  }
+}

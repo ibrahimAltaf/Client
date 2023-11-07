@@ -1,0 +1,64 @@
+.Meet-our-teem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-left: 1rem;
+  flex-direction: row;
+  align-items: center;
+  margin: 5rem;
+  overflow: hidden !important;
+}
+.team-member {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.MeetTExt {
+  color: #cbcbcb;
+  font-family: "Manrope";
+  font-size: 200px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200px; /* 100% */
+}
+.Meet-our-team-slider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.meet-text {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Add responsive styles here */
+@media (max-width: 768px) {
+  .Meet-our-team-slider {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  .meet-text {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  .Meet-our-teem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: row;
+    align-items: center;
+    margin: 5rem;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .Meet-our-team-slider {
+    font-size: 18px; /* Adjust font size for even smaller screens */
+  }
+  .meet-text {
+    font-size: 18px; /* Adjust font size for even smaller screens */
+  }
+}

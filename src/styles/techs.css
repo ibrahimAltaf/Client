@@ -1,0 +1,224 @@
+.main-hero-section-01-02 {
+  width: 100%;
+  height: 920px;
+  background-image: url(../assets/TechsBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Hero-section-content {
+  width: 92%;
+  height: 100%;
+  margin: auto;
+}
+.watch-reels {
+  display: flex;
+  align-items: center;
+}
+.Watch-reels-text {
+  font-size: 20px;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.2px; /* 140% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.Hero-text-content-01 {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.Hero-head-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Hero-text-content-01 h1 {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 105px;
+  font-style: normal;
+  width: 60%;
+
+  font-weight: 700;
+  line-height: 110px; /* 94% */
+  letter-spacing: -6.3px;
+}
+.Hero-para-01 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+.Hero-para-01 p {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+
+  line-height: 25.2px; /* 140% */
+  letter-spacing: -0.18px;
+  text-transform: uppercase;
+}
+.let-Discus {
+  position: absolute;
+}
+.let-Discus {
+  left: 60%;
+}
+.tech-para {
+  padding: 2rem;
+}
+
+.statics {
+  width: 90%;
+  height: 100%;
+
+  margin: auto;
+}
+
+.static-head {
+  color: #329683;
+  font-family: "Manrope", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 91px; /* 100% */
+
+  text-transform: uppercase;
+}
+.static-para {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 18px;
+  width: 70%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 140% */
+  letter-spacing: -0.36px;
+  padding-bottom: 2rem;
+}
+.stactic-main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.stact-para {
+  width: 20.3%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.stact-para img {
+  margin: 1rem;
+}
+.stact-para p {
+  margin: 1rem;
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.2px; /* 140% */
+  text-transform: uppercase;
+}
+.static-img {
+  width: 43.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.static-img img {
+  width: 100%;
+}
+.static-content {
+  width: 33.3%;
+  height: 100%;
+}
+.static-content p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 140% */
+}
+.TechLogoAIMS:hover {
+  transform: translate(1.1);
+}
+@media only screen and (max-width: 460px) {
+  .statics {
+    width: 90%;
+    height: 100%;
+
+    margin: auto;
+  }
+  .static-head {
+    color: #329683;
+    font-family: "Manrope", sans-serif;
+    font-size: 40px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91px; /* 100% */
+
+    text-transform: uppercase;
+  }
+  .stactic-main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .stact-para {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .static-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .static-content {
+    width: 100%;
+    height: 100%;
+  }
+}
+.TechLogoAIMS {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.TechLogoAIMS img {
+  filter: brightness(100%);
+}
+
+.TechLogoAIMS:hover img {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}

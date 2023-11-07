@@ -1,0 +1,286 @@
+#nav {
+  display: none;
+}
+
+@media only screen and (max-width: 460px) {
+  #nav {
+    background: transparent !important;
+    display: flex;
+    width: 100% !important;
+    margin-bottom: 2rem;
+    overflow: hidden !important;
+  }
+  #nav-logo {
+    width: 146.091px;
+    height: 37px;
+    flex-shrink: 0;
+  }
+  .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    background-color: none !important;
+  }
+  #contact-btn {
+    width: 116.7px;
+    height: 40px;
+    border-radius: 40px;
+    background: #13c4a3 !important;
+    color: #0b0b0b;
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  #toggle .navbar-toggler-icon {
+    background-color: white;
+    outline: none;
+    border: none; /* Navbar toggle button icon ka background color white karen */
+  }
+  #toggle {
+    width: 40px;
+    height: 40px;
+  }
+  .basic-navbar-nav {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(
+      100% 100% at 50% 100%,
+      #0c4238 0%,
+      #010113 100%
+    ) !important;
+  }
+  /* Apne CSS file mein ye styles add karein */
+  #nav .navbar-nav .nav-link {
+    color: #fff; /* Link color */
+    font-family: "Manrope"; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: 500; /* Font weight */
+    line-height: 47.2px; /* Line height */
+    letter-spacing: -1.3px; /* Letter spacing */
+  }
+  .social-icons-mobile {
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  #nav-list {
+    background: radial-gradient(
+      100% 100% at 50% 100%,
+      #0c4238 0%,
+      #010113 100%
+    ) !important;
+    width: 100% !important;
+    padding: 5rem 2rem 5rem 2rem;
+  }
+  .Nav-text {
+    color: #fff !important;
+    font-family: "Manrope";
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+    border-bottom: 1px solid var(--dsad, #7d8387) !important;
+  }
+  #industries-dropdown {
+    color: #fff !important;
+    font-family: "Manrope";
+    font-size: 32px !important;
+
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+  }
+  #services-dropdown {
+    color: #fff !important;
+    font-family: "Manrope";
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important; /* 147.5% */
+    letter-spacing: normal !important;
+  }
+  .Nav-text a {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Manrope";
+    color: #ffffff !important;
+  }
+  .nav-te {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Manrope";
+    color: black !important;
+  }
+  #Reas {
+    color: #010113 !important;
+    font-family: "Manrope";
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important; /* 147.5% */
+    letter-spacing: normal !important;
+  }
+  #nav-te {
+    color: #010113 !important;
+    font-family: "Manrope";
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important; /* 147.5% */
+    letter-spacing: normal !important;
+  }
+  #Link-01 {
+    color: #010113 !important;
+    font-family: "Manrope";
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+  }
+}
+@media only screen and (max-width: 540px) {
+  #nav {
+    background: transparent !important;
+    display: flex;
+    width: 100% !important;
+    margin-bottom: 2rem;
+    overflow: hidden !important;
+  }
+  #nav-logo {
+    width: 146.091px;
+    height: 37px;
+    flex-shrink: 0;
+  }
+  #contact-btn {
+    width: 116.7px;
+    height: 40px;
+    border-radius: 40px;
+    background: #13c4a3 !important;
+    color: #0b0b0b;
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  #toggle .navbar-toggler-icon {
+    background-color: white;
+    outline: none;
+    border: none; /* Navbar toggle button icon ka background color white karen */
+  }
+  #toggle {
+    width: 40px;
+    height: 40px;
+  }
+  .basic-navbar-nav {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(
+      100% 100% at 50% 100%,
+      #0c4238 0%,
+      #010113 100%
+    ) !important;
+  }
+  /* Apne CSS file mein ye styles add karein */
+  #nav .navbar-nav .nav-link {
+    color: #fff; /* Link color */
+    font-family: "Manrope"; /* Font family */
+    font-size: 20px; /* Font size */
+    font-weight: 500; /* Font weight */
+    line-height: 47.2px; /* Line height */
+    letter-spacing: -1.3px; /* Letter spacing */
+  }
+  .social-icons-mobile {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  #nav-list {
+    background: radial-gradient(
+      100% 100% at 50% 100%,
+      #0c4238 0%,
+      #010113 100%
+    ) !important;
+    width: 100% !important;
+    padding: 5rem 2rem 5rem 2rem;
+  }
+  .Nav-text {
+    color: #fff !important;
+    font-family: "Manrope";
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+    border-bottom: 1px solid var(--dsad, #7d8387) !important;
+  }
+  #industries-dropdown {
+    color: #fff !important;
+    font-family: "Manrope";
+    font-size: 32px !important;
+
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+  }
+  #services-dropdown {
+    color: #fff !important;
+    font-family: "Manrope";
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+  }
+  .Nav-text a {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Manrope";
+    color: #ffffff !important;
+  }
+  .nav-te {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Manrope";
+    color: black !important;
+  }
+  #nav-te {
+    color: #010113 !important;
+    font-family: "Manrope";
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+  }
+  #Link-01 {
+    color: #010113 !important;
+    font-family: "Manrope";
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 47.2px !important; /* 147.5% */
+    letter-spacing: -1.3px !important;
+  }
+}

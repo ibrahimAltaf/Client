@@ -1,0 +1,314 @@
+.why-chose-us {
+  width: 100% !important;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 5rem;
+}
+.why-content {
+  width: 90%;
+  height: 30%;
+  margin-bottom: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.why-01 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+.why-02 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.why-01 h1 {
+  color: #329683;
+  font-family: "Manrope";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  /* 100% */
+
+  text-transform: uppercase;
+}
+.why-01 p {
+  color: #7d8387;
+  font-family: "Manrope";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.why-choice-number {
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin: auto;
+}
+.choice-main-01 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+.choice-statics {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.text-conten {
+  width: 60%;
+  height: 100%;
+}
+.image-choice {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.static-01 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.static-02 {
+  width: 50%;
+  height: 100%;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.static-004 {
+  width: 50%;
+  height: 100%;
+}
+.text-conten p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 18px;
+  padding-left: 1rem;
+  font-style: normal;
+  border-right: none;
+  padding-bottom: 2rem;
+  font-weight: 400;
+}
+.text-conten button {
+  display: flex;
+  width: 191px;
+  height: 56px;
+  padding: 17.5px 40px 0px 40px;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px; /* 140% */
+  letter-spacing: -0.15px;
+  text-transform: uppercase;
+  align-items: flex-start;
+  gap: 16.5px;
+  border-radius: 40px;
+  background: var(--Secondary, #329683);
+}
+.number-stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top: 2px solid #329683;
+  border-right: 1px solid rgba(19, 196, 163, 0.5);
+}
+.number-stats {
+  color: var(--out-of-names, #0b0b0b);
+  font-family: "Manrope";
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 100% */
+  letter-spacing: -4.14px;
+  padding-bottom: 2rem;
+}
+.para-stat p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px; /* 140% */
+}
+.static-001 {
+  padding-bottom: 2rem;
+}
+.number-stats.counted {
+  transition: 1s; /* Adjust the duration as needed */
+}
+
+.number-stats.counted::before {
+  content: attr(data-count);
+  counter-reset: count;
+  animation: count-up 1s steps(23);
+}
+
+@keyframes count-up {
+  to {
+    counter-increment: count;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .why-chose-us {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 2rem !important;
+  }
+  .why-content {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 0 !important;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .why-01 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0 !important;
+  }
+  .why-02 {
+    display: none !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .why-01 h1 {
+    color: #329683;
+    font-family: "Manrope";
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center !important;
+    padding-bottom: 0 !important;
+    text-transform: uppercase;
+    padding-bottom: 1rem !important;
+  }
+  .why-01 p {
+    color: #7d8387;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem !important;
+  }
+  .why-choice-number {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: auto;
+    padding: 1rem !important;
+  }
+  .choice-main-01 {
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    gap: 0 !important;
+    margin-top: 5rem;
+
+    flex-direction: column;
+  }
+  .choice-statics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .image-choice {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .text-conten {
+    width: 100%;
+    padding: 0 !important;
+    height: 100%;
+    margin-top: -5rem;
+  }
+  .text-conten p {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 14px;
+    padding: 0 !important;
+    text-align: center;
+    font-style: normal;
+    width: 100% !important;
+    font-weight: 400;
+  }
+  .mobile-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .text-conten {
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-conten button {
+    display: flex;
+    width: 191px;
+    height: 56px;
+    padding: 17.5px 40px 0px 40px;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    margin-bottom: 2rem;
+    outline: none;
+    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 140% */
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    align-items: flex-start;
+    gap: 16.5px;
+    border-radius: 40px;
+    background: var(--Secondary, #329683);
+  }
+}

@@ -1,0 +1,407 @@
+footer {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  margin-top: 5rem;
+}
+
+.footer {
+  width: 90%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin: auto;
+}
+
+.fo-01 {
+  width: 40%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.f02 {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.ul li a {
+  text-decoration: none;
+  color: #000;
+  color: #000;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.2px;
+  /* 140% */
+
+  text-transform: uppercase;
+}
+
+.links-footer {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.link-socail-main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.link-001 {
+  width: 70%;
+  height: 100%;
+
+}
+
+.main-social-02 {
+  width: 100%;
+  height: 40%;
+
+}
+
+.link-socail-main {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+
+.socail-link {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.socuial-link-main-01 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.social-adrees {
+  width: 100%;
+  height: 50%;
+
+}
+
+.link-icons {
+  width: 70%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.link-icons img {
+  width: 50px;
+
+  flex-shrink: 0;
+  margin: 1rem;
+}
+
+
+
+.scroll-top {
+  width: 30%;
+  height: 100%;
+
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.scroll-top p {
+  color: #000;
+
+  font-family: "IBM Plex Mono", monospace;
+  padding-left: 1rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.2px;
+  /* 113.75% */
+  letter-spacing: -0.13px;
+  text-transform: uppercase;
+}
+
+.powerd-by {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prowerd p {
+  color: #000;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px;
+  /* 110% */
+}
+
+.sitemap p {
+  color: #6F6F6F;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px;
+  /* 110% */
+}
+
+.policy p {
+  color: #6F6F6F;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.4px;
+  /* 110% */
+}
+
+
+@media only screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 5rem;
+  }
+
+  .footer {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: auto;
+  }
+
+  .fo-01 {
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .f02 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .ul li a {
+    text-decoration: none;
+    color: #000;
+    color: #000;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.2px;
+    /* 140% */
+
+    text-transform: uppercase;
+  }
+
+  .links-footer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .link-socail-main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  .link-001 {
+    width: 70%;
+    height: 100%;
+
+  }
+
+  .main-social-02 {
+    width: 100%;
+    height: 40%;
+
+  }
+
+  .link-socail-main {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+
+  .socail-link {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socuial-link-main-01 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .social-adrees {
+    width: 100%;
+    height: 50%;
+
+  }
+
+  .link-icons {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+  .link-icons img {
+    width: 24px;
+    height: 23.996px;
+    flex-shrink: 0;
+    margin: 1rem;
+  }
+
+  .scroll-top {
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .scroll-top p {
+    color: #000;
+
+    font-family: "IBM Plex Mono", monospace;
+    padding-left: 1rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.2px;
+    /* 113.75% */
+    letter-spacing: -0.13px;
+    text-transform: uppercase;
+  }
+
+  .powerd-by {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .prowerd p {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.4px;
+    /* 110% */
+  }
+
+  .sitemap p {
+    color: #6F6F6F;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.4px;
+    /* 110% */
+  }
+
+  .policy p {
+    color: #6F6F6F;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.4px;
+    /* 110% */
+  }
+
+
+}
